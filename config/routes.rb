@@ -9,10 +9,14 @@ Rails.application.routes.draw do
   get '/home',{:controller => 'application', :action => 'home'}
   get '/courses',{:controller => 'application', :action => 'courses'}
   get '/about',{:controller => 'application', :action => 'about'}
-  get '/contact',{:controller => 'application', :action => 'contact'}
+  get '/sign_in',{:controller => 'application', :action => 'sign_in'}
+  get '/sign_up',{:controller => 'application', :action => 'sign_up'}
+  get '/enroll_class',{:controller => 'application', :action => 'enroll_class'}
   
-  get '/courses/cpr',{:controller => 'courses', :action => 'cpr'}
-  
+  get '/courses/cpr_aed',{:controller => 'courses', :action => 'cpr_aed'}
+  get '/courses/first_aid',{:controller => 'courses', :action => 'first_aid'}
+  get '/courses/asthma',{:controller => 'courses', :action => 'asthma'}
+  get '/courses/mildly_ill_child',{:controller => 'courses', :action => 'mildly_ill_child'}
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

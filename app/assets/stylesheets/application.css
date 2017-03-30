@@ -13,6 +13,67 @@
  *= require_tree .
  *= require_self
  */
-.dropdown:hover .dropdown-menu {
-display: block;
+@import url(https://fonts.googleapis.com/css?family=Courgette|Josefin+Slab);
+html, body {
+  font-family: "Arial";
+}
+h1, h3 {
+  color: #1F65B9;
+}
+h2 {
+  color: #0B4A95;
+}
+#font {
+  font-family: "Courgette";
+}
+/*.carousel-control {
+  height: 80px;
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+}
+.carousel .item {
+ height: 375px;
+}
+.carousel img {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-height: 600px;
+  min-width: 100%;
+  margin: 0;
+  
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
+#myCarousel {
+  width: 50%;
+}
+ 
+ 
+ 
+ 
+#myCarousel.carousel.slide {width: 100%; max-width: 500px;overflow:hidden;}
+.carousel-inner { text-align: center; }
+
+.carousel .item > img { display: inline-block; }
+*/
+
+.slider-size {
+height: 450px; /* This is your slider height */
+}
+.carousel {
+width:70%; 
+margin:0 auto; /* center your carousel if other than 100% */ 
 }

@@ -15,8 +15,16 @@ class ApplicationController < ActionController::Base
     render 'about'  
   end
   
-  def contact
-    render 'contact'
+  def sign_in
+    render 'sign_in'
   end
-
+  
+  def sign_in
+    render 'sign_in'
+  end
+  
+  def enroll_class
+    render 'enroll_class'  
+  end
+  
 end

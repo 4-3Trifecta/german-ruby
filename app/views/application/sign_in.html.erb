@@ -1,0 +1,31 @@
+<% content_for :main do %>
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-3">
+    <p class="h1 text-center">Existing Users</p>
+    <hr>
+    <form class="text-center">
+        <div class="form-group">
+          <label for="loginEmail">Email address</label>
+          <input type="email" class="form-control" id="loginEmail" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="loginPass">Password</label>
+          <input type="password" class="form-control" id="loginPass" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+  
+  <div class="col-md-3">
+    <p class="h1 text-center">New Users</p>
+    <hr>
+    <div class="text-center">
+      Not a user yet?
+      <br>
+      <a href="/sign_up">Sign up</a> today and start meducating yourself today.
+    </div>
+  </div>
+  <div class="col-md-3"></div>
+</div>
+<% end %>
